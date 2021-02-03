@@ -1,0 +1,49 @@
+
+
+
+
+@keyframes drop {
+0%{
+  opacity: 0;
+  transform: translateY(-80px);
+}
+100%{
+  opacity: 1;
+  transform: translateY(0px);
+}
+}
+
+
+.col-md-4{
+padding: 0;
+}
+
+hr{
+width: 70%;
+}
+
+
+
+
+.hov{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background-color: rgba(0, 0, 0, 1);
+  height: 250px;
+  width: 350px;
+  text-align: center;
+  color:#ffffff;
+}
+
+.content{
+  margin-top: 20%;
+  transform: translateY(-100px);
+  transition-duration: 0.5s;
+}
+
+.content_hover {
+  margin-top: 20%;
+  transform: translateY(0);
+  transition-duration: 0.5s;
+}

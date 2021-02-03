@@ -1,0 +1,309 @@
+.gradient {
+    width: 100%;
+    height: 500px;
+    background: #000;
+    position: absolute;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
+
+
+
+.container {
+	width: 1020px;
+	height: 600px;
+	position: relative;
+	margin: 0 auto;
+}
+
+
+nav>ul {
+	position: absolute;
+	right: 150px;
+}
+
+ul>li {
+	position: relative;
+}
+
+nav>ul>li {
+	list-style: none;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+}
+
+nav>ul>li>a {
+	text-decoration: none;
+	font-family: 'Abel', sans-serif;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 0 20px 0 20px;
+	display: inline-block;
+}
+
+.btn2 {
+	width: 130px;
+	height: 40px;
+	background: #237730;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Abel', sans-serif;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	position: absolute;
+	right: 0;
+}
+
+.logo {
+	color: #fff;
+	font-family: 'Abel', sans-serif;
+	font-size: 30px;
+	position: absolute;
+	padding: 20px;
+}
+
+.gradient {
+	width: 100%;
+	height: 600px;
+	background: #000;
+	position: absolute;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&1+3,0+100 */
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 3%, rgba(0, 0, 0, 0) 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 3%, rgba(0, 0, 0, 0) 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%,
+		rgba(0, 0, 0, 1) 3%, rgba(0, 0, 0, 0) 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000',
+		endColorstr='#00000000', GradientType=0);
+	/* IE6-9 */
+}
+
+.container {
+	width: 100%;
+	height: 250px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.container2 {
+	width: 80%;
+	
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	color: #fff;
+	font-family: 'Abel', sans-serif;
+	font-size: 30px;
+	position: absolute;
+	padding: 10px;
+	left: 20px
+}
+
+.nav {
+	width: 100%;
+	height: 60px;
+	background-color: transparent;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+}
+
+.mainMenu {
+	list-style-type: none;
+}
+
+.mainMenu .subMenu {
+	float: right;
+	width: 100px;
+	height: 60px;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+	right: 120px;
+}
+
+.mainMenu .subMenu a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	font-family: 'Abel', sans-serif;
+}
+
+.mainMenu .subMenu a:hover {
+	background-color: #237730;
+	transition: 1s all ease;
+}
+
+.mainMenu .subMenu .mainMenu .subMenu {
+	display: none;
+	background-color: #000;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 2px 6px 0;
+	height: 60px;
+	transition: 1s all;
+	font-family: 'Abel', sans-serif;
+	left: 0px;
+}
+
+.mainMenu .subMenu:hover .mainMenu .subMenu {
+	display: block;
+	transition: 1s all;
+	animation: drop 1s ease;
+}
+
+@
+keyframes drop { 0%{
+	transform: scale(2, 2) rotateX(90deg);
+}
+
+100%{
+transform
+:
+ 
+scale
+(1
+,
+1)
+rotateX
+(0deg);
+
+        
+}
+}
+.btn2 {
+	width: 100px;
+	height: 40px;
+	background: #237730;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Abel', sans-serif;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	top: 10px;
+	position: absolute;
+	right: 10px;
+}
+.nav .arrow{
+display:inline-block;
+border: 2px solid white;
+width:8px;
+height:8px;
+border-left:none;
+border-bottom:none;
+position : relative;
+right:0;
+margin-left:10px;
+}
+.nav .arrow.arrowDown{
+transform:rotateZ(135deg) translate(0px , 3px);
+}
+
+
+
+
+
+.img-wrap{
+    width: 100%;
+}
+
+.img-wrap img{
+    width: 100%;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #999999;
+}
+
+#aboutus h4{
+    margin-bottom: 24px;
+    margin-top: 70px;
+}
+
+
+
+.contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.card{
+    background: #2f3542;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-icon{
+    font-size: 28px;
+    background: #ff6348;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    transition: 0.3s linear;
+}
+
+.card:hover .card-icon{
+    background: none;
+    color: #ff6348;
+    transform: scale(1.6);
+}
+
+.card p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+
+.card:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
+
+@media screen and (max-width:800px){
+    .contact-info{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+        max-width: 300px;
+        margin: 10px 0;
+    }
+}
